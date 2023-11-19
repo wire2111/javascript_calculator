@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Digital';
+    src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot');
+    src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix')
+        format('embedded-opentype'),
+      url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2')
+        format('woff2'),
+      url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff')
+        format('woff'),
+      url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf')
+        format('truetype'),
+      url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7')
+        format('svg');
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+    background-color: black;
+    width: 15%;
+    margin: 2rem auto 0 auto;
+    padding: 4px;
+    border-radius: 4px;
+  }
+  
+  footer {
+    width: 15%;
+    margin: 0 auto;
+    text-align: right;
+  }
+  
+  
+  
+  
+  
+  @media (max-width: 1700px) {
+    #app, footer {
+      width: 20%;
+    }
+  }
+  
+  @media (max-width: 1400px) {
+    #app, footer {
+      width: 30%;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    #app, footer {
+      width: 40%;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    #app, footer {
+      width: 60%;
+    }
+  }
+  
+  #display-box {
+    font-family: digital;
+    text-align: end;
+  }
+  
+  #display {
+    color: white;
+    font-size: 3rem;
+  }
+  
+  #display-formula {
+    color: orange;
+    font-size: 2rem;
+    min-height: 2.4rem;
+  }
+  
+  button {
+    width: 25%;
+    padding: 1.5rem;
+    font-size: 1rem;
+    border: solid black 1px;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  button:hover {
+    color: black;
+    border: solid grey 1px;
+  }
+  
+  #zero {
+    width: 50%;
+  }
+  
+  #clear {
+    background-color: #ac3939;
+    width: 75%;
+  }
+  
+  #equals {
+    background-color: #004466;
+  }
+  
+  #seven, 
+  #eight, 
+  #nine,
+  #four,
+  #five,
+  #six,
+  #one,
+  #two,
+  #three,
+  #zero,
+  #decimal{
+    background-color: #4d4d4d;
+  }
+  
+  #divide,
+  #multiply,
+  #subtract,
+  #add {
+    background-color: #666;
+  }
